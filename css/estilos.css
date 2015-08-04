@@ -1,0 +1,48 @@
+body {
+	background: #e1e1e1;
+}
+
+a {
+	text-decoration: none;
+	color: #2d607f;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header, .contenedor {
+	width: 90%;
+	margin: auto;
+	max-width: 960px;
+}
+
+#logo h1{
+	padding: 5px;
+	font-size: 50px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+header nav {
+	background:#2f76a2;
+	border-radius: 25px;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 20px 10px;
+}
+ header nav ul li a {
+ 	color: white;
+ 	text-shadow: 2px 2px 4px #000;
+
+ }
+
+ header nav ul li a:hover{
+ 	text-decoration: none;
+ 	color: #fec823;
+ }
